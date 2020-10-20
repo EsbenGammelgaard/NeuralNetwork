@@ -11,12 +11,24 @@ The goal is to use the NN algorithm to classify the digits in the 10 different c
 
 ## RStudio Results
 #### Confusion Matrix
-| Prediction / Reference |
+
+| Prediction / Reference | 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  |
+|------------------------|----|----|----|----|----|----|----|----|----|----|
+| 0                      | 87 | 0  | 1  | 2  | 0  | 2  | 1  | 0  | 0  | 0  |
+| 1                      | 0  | 88 | 2  | 1  | 0  | 0  | 1  | 2  | 10 | 0  |
+| 2                      | 3  | 3  | 74 | 1  | 2  | 4  | 2  | 5  | 5  | 0  |
+| 3                      | 0  | 3  | 13 | 61 | 2  | 9  | 2  | 2  | 4  | 2  |
+| 4                      | 0  | 1  | 3  | 0  | 89 | 4  | 5  | 0  | 0  | 7  |
+| 5                      | 2  | 0  | 4  | 2  | 0  | 72 | 3  | 3  | 3  | 0  |
+| 6                      | 3  | 2  | 3  | 0  | 4  | 3  | 90 | 0  | 1  | 0  |
+| 7                      | 1  | 1  | 0  | 1  | 3  | 2  | 2  | 91 | 1  | 5  |
+| 8                      | 2  | 1  | 2  | 3  | 3  | 9  | 1  | 1  | 61 | 2  |
+| 9                      | 2  | 0  | 0  | 2  | 14 | 0  | 1  | 12 | 0  | 79 |
 
 #### Accuracy 
-The accuracy aqired was 
+The accuracy aqired was 0.79
 #### Run Time
-The run time for the prediciton inlducing both training and testing was  seconds. 
+The run time for the prediciton inlducing both training and testing was 8.86 seconds. 
 
 ## Python Results
 #### Confusion Matrix
